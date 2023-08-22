@@ -20,6 +20,8 @@ https://github.com/KirillMikhailov442/telegram-joker-bot.git
 
 cd telegram-joker-bot
 
+pip install -r requirements.txt
+
 python main.py
 
 ```
