@@ -25,7 +25,7 @@ class TelegramBot:
         user_language = self.get_user_language(message)
 
         markup = types.InlineKeyboardMarkup()
-        markup.add( types.InlineKeyboardButton(translate_text.translate_text('github', user_language), url='https://habr.com/ru/all/'))
+        markup.add( types.InlineKeyboardButton(translate_text.translate_text('github', user_language), url='https://github.com/KirillMikhailov442/telegram-joker-bot'))
 
         self.bot.send_message(chat_id, translate_text.translate_text(f'Hi {user_name} good to see you, I`m a joker bot I can tell a joke \n just ask me to tell a joke and I will tell \n \n all source code is published on github (do not forget to put an asterisk, I will be very grateful 🥰)', user_language), reply_markup=markup)
 
