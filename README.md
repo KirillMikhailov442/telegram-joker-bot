@@ -16,7 +16,7 @@ __please use your bot token__
 
 ```
 
-https://github.com/KirillMikhailov442/telegram-joker-bot.git
+git clone https://github.com/KirillMikhailov442/telegram-joker-bot.git
 
 cd telegram-joker-bot
 
